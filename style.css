@@ -14,7 +14,8 @@ img{
   padding: 10px ;
   margin: 20px auto;
   display: flex;
-
+  width:250px;
+  height:250px;
 }
 .left{
 width: 400px;
@@ -30,7 +31,7 @@ box-shadow: 3px 0px 0px rgba(141, 39, 59,.1);
   h3{
     color:#8d273b;
     text-transform: uppercase;
-    margin:0 30px;
+    margin:50px 30px 5px 30px;
   }
   .contact{
     margin-top: 50px;
@@ -42,15 +43,17 @@ box-shadow: 3px 0px 0px rgba(141, 39, 59,.1);
   h1{
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
-    font-size:90px;
+    font-size:80px;
     color:#8d273b;
     text-transform: uppercase;
     margin:20px 30px;
+    text-align: center;
   }
   h2{
     margin:20px 30px;
     text-transform: uppercase;
     font-family: 'Dosis', sans-serif;
+    text-align: center;
   }
   hr{
     background-color:rgba(141, 39, 59,.1);
@@ -60,8 +63,7 @@ box-shadow: 3px 0px 0px rgba(141, 39, 59,.1);
   }
   li{
     padding: 0;
-    
-  }
+   }
  
   
 
@@ -73,7 +75,36 @@ box-shadow: 3px 0px 0px rgba(141, 39, 59,.1);
     background-color:rgb(141, 39, 59);
     padding: 10px 20px;
     }
-.bar{
-  display: inline-block;
-  /* margin:0px 10px; */
-}
+    p.skill{
+      margin-left: 50px;
+      margin-right: 0px;
+      /* color:#d3d3d3; */
+      color:#333;
+      font-weight: normal;
+    }
+    button{
+      margin:0 30px;
+      background-color:rgba(141, 39, 59,.2);
+      border:0;
+      color:#333;
+ 
+    }
+    #html{
+      margin-left:62px;
+      width:143.5px;
+    }
+    #css{
+      margin-left:72px;
+      width:307.5px;
+    }
+    #photoshop{
+      margin-left:28px;
+      width:102px;
+    }
+    #javaScript{
+      width:410px;
+    }
+   #react{
+    width:205px;
+    margin-left: 65px;
+   }
